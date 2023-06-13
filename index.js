@@ -44,7 +44,7 @@ function writeToFile(fileName, answers) {
   });
 }
 
-// This function utilizes inquirer .prompt to prompt the user to answer questions in the command line and save user input
+// prompts questions in terminal
 function promptUser() {
   inquirer
     .prompt([
