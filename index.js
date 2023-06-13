@@ -38,7 +38,7 @@ function writeToFile(fileName, answers) {
   // Closing </svg> tag
   svgString += "</svg>";
 
-  // Using file system module to generate svg file, takes in file name given in the promptUser function, the svg string, and a ternary operator which handles logging any errors, or a "Generated logo.svg" message to the console  
+  // Using file system module to generate svg file 
   fs.writeFile(fileName, svgString, (err) => {
     err ? console.log(err) : console.log("Generated logo.svg");
   });
@@ -48,28 +48,28 @@ function writeToFile(fileName, answers) {
 function promptUser() {
   inquirer
     .prompt([
-      // Text prompt
+      // asking for text desired
       {
         type: "input",
         message:
           "What text would you like you logo to display? (Enter up to three characters)",
         name: "text",
       },
-      // Text color prompt
+      // asking for text color desired
       {
         type: "input",
         message:
           "Choose text color (Enter color keyword OR a hexadecimal number)",
         name: "textColor",
       },
-      // Shape choice prompt
+      // asking for shape desired
       {
         type: "list",
         message: "What shape would you like the logo to render?",
         choices: ["Triangle", "Square", "Circle"],
         name: "shape",
       },
-      // Shape color prompt
+      // Shape color 
       {
         type: "input",
         message:
@@ -78,16 +78,16 @@ function promptUser() {
       },
     ])
     .then((answers) => {
-      // Error handling for text prompt (user must enter 3 characters or less for logo to generate)
+      // Test to ensure no more than 3 characters
       if (answers.text.length > 3) {
         console.log("Must enter a value of no more than 3 characters");
         promptUser();
       } else {
-        // Calling write file function to generate SVG file
+        // generate SVG file
         writeToFile("logo.svg", answers);
       }
     });
 }
 
-// Calling promptUser function so inquirer prompts fire off when application is ran
+// Calling promptUser function 
 promptUser();
