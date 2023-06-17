@@ -25,6 +25,11 @@ This project allowed me more opportunity to garner more experience using inquire
 ## Repository and Demo
 * <a href="https://github.com/GregNasir/SVG-Logo-Maker/">SVG Log Maker Repository</a>
 
+
+https://github.com/GregNasir/SVG-Logo-Maker/assets/63434657/9a7a17a1-d0fe-4f9b-8562-408862d70798
+
+
+
 ## Installation
 
 Using any code editor, download and install nodejs, npm and in extension inquirer8.2.4 afer copying this source code.
@@ -32,6 +37,9 @@ Using any code editor, download and install nodejs, npm and in extension inquire
 ## Usage
 
 The logo maker allows developer to creat logos for their projects, while saving time and possible money. By following basic prompts, a user can set the parameters and appearace of thier desired logo.
+
+<img width="722" alt="SVG-Screen-Shot" src="https://github.com/GregNasir/SVG-Logo-Maker/assets/63434657/317e14d5-333e-4011-b256-0cec375c3b94">
+
 
 ## Tests
 
