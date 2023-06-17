@@ -13,7 +13,7 @@ by Gregory Williams <br>
 
 # Description
 
-This Logo makerr was created to allow developers to create logos for their projects, by answering some basic questions. the inquirer module was use to set questions. Other tools used and steps taken were:
+This Logo maker was created to allow developers to create logos for their projects, by answering some basic questions. the inquirer module was use to set questions. Other tools used and steps taken were:
 
 * Javascript to write to set shape and color
 * Node.js
