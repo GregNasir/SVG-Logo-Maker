@@ -9,6 +9,7 @@ const { Triangle, Square, Circle } = require("./lib/shapes");
 
 // wrtites SVG file
 function writeToFile(fileName, answers) {
+  
   let svgString = "";
   // Sets width and height
   svgString =

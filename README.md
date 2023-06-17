@@ -6,7 +6,6 @@ by Gregory Williams <br>
 * [Repository and demo](#repository-and-demo)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [Tests](#tests)
 * [Credits](#credits)
 * [Questions](#questions)
@@ -33,6 +32,9 @@ Using any code editor, download and install nodejs, npm and in extension inquire
 
 The logo maker allows developer to creat logos for their projects, while saving time and possible money. By following basic prompts, a user can set the parameters and appearace of thier desired logo.
 
+## Tests
+
+nmp jest
 ## Credits
 
 * Columbia Engineering Bootcamp resources
