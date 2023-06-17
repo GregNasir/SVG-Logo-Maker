@@ -23,6 +23,7 @@ This Logo maker was created to allow developers to create logos for their projec
 This project allowed me more opportunity to garner more experience using inquirer. I also got the chance to get more intuned with how JavaScript, nodeJS and inquirer works together to complete projects.
 
 ## Repository and Demo
+* <a href="https://github.com/GregNasir/SVG-Logo-Maker/">SVG Log Maker Repository</a>
 
 ## Installation
 
@@ -38,9 +39,9 @@ nmp jest
 ## Credits
 
 * Columbia Engineering Bootcamp resources
-* w3schools website
-* MND webdocs
-* Stackoverflow
+* <a href="https://www.w3schools.com/">w3schools website</a>
+* <a href="https://developer.mozilla.org/en-US/">MND webdocs</a>
+* <a href="https://stackoverflow.com">Stackoverflow</a>
 
 ## License
 Copyright (c) 2023 Gregory Williams
